@@ -206,3 +206,58 @@ nav ul li a{
     display: flex;
     gap: 20px;
   }
+
+  .btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*  fotter style here  */
+
+  footer{
+     background-color: #FFF8F3;
+     height: 780px;
+   
+
+  }
+  .myFooter{
+      display: flex;
+      padding: 70px 0px;
+      justify-content: space-around;
+  }
+
+  .content{
+    color: #474747;
+    padding: 10px;
+
+  }
+
+  .content .icon i{
+    color: #FD6E0A;
+    font-size: 23px;
+    margin-right: 14px;
+  }
+
+  .contaceForm form input{
+    border: none;
+    outline: none;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background:  #FFF;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+
+  .contaceForm textarea{
+    width: 461px;
+    height: 180px;
+    resize: none;
+    border-radius: 5px;
+     background:   #FFF;
+     border: none;
+     outline: none;
+     margin-top: 10px;
+     padding-left: 10px;
+  }
