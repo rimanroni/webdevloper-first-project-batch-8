@@ -42,3 +42,23 @@ nav ul li a{
     cursor: pointer;
     padding: 10px 17px;
 }
+
+/*  header related style ==>> */
+.header{
+    background: #FFF8F3;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-image: url(images/developer.png); */
+}
+.headerimg{
+    /* background-image: url(images/header_bg.png); */
+}
+
+.headerimg img{
+    width: 500px;
+    /* height: 676px; */
+}
