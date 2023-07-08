@@ -42,17 +42,40 @@ nav ul li a{
     cursor: pointer;
     padding: 10px 17px;
 }
+/*  common styles css  */
+
+
+.section-title{
+    color:   #181818 ;
+    text-align: center;
+     font-size: 35px;
+     font-weight: 700;
+   
+}
+.section-desc{
+        color:  #757575;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+ 
+}
+
 
 /*  header related style ==>> */
 .header{
     background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom, right;
+    
 }
 
 .banner{
     display: flex;
-    justify-content: space-around;
+    /* justify-content:  space-around; */
+    padding: 30px 30px 0px 150px;
     align-items: center;
-    /* background-image: url(images/developer.png); */
+    justify-content: space-between;
 }
 .headerimg{
     /* background-image: url(images/header_bg.png); */
@@ -61,4 +84,33 @@ nav ul li a{
 .headerimg img{
     width: 500px;
     /* height: 676px; */
+}
+.bannercontent{
+    max-width: 500px;
+}
+
+.bannercontent h3{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.bannercontent h1{
+    font-size: 85px;
+    color: #474747;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.bannercontent p{
+    margin-bottom: 20px;
+}
+
+/* Main section here  */
+
+/*  about section styles */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
 }
