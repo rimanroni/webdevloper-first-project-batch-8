@@ -105,7 +105,11 @@ nav ul li a{
 }
 
 /* Main section here  */
-
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* text-align: center; */
+ }
 /*  about section styles */
 
 .about{
@@ -113,4 +117,18 @@ nav ul li a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
+}
+
+.aboutInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.info-desc{
+    color: #757575;
+    text-align: center;
+   
+    font-size: 20px;
+     
+    font-weight: 400;
+    line-height: 30px;
 }
